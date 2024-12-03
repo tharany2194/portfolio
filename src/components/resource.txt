@@ -1,0 +1,163 @@
+contact:
+<a href="https://www.freepik.com/search">Icon by Prosymbols Premium</a>
+suitcase:
+<a href="https://www.freepik.com/search">Icon by HideMaru</a>
+<Link activeClass='active' to='contactPage' spy={true} offset={-100} duration={500} className='desktopMenuListItem' >Contact</Link>
+
+<div className='skillBars'>
+        <div className='skillBar'>
+            <img src={uiuxDesignImg} alt='UI Design' className='skillBarImg'/>
+            <div className='skillBarText'>
+              <h2>UI/UX Design</h2>
+              <div className='items'>
+                <div className='item'>
+                    <h3>Self-Learning Efforts</h3>
+                    <ul>
+                        <li>I have dedicated a significant amount of time to learning UI/UX design principles through Udemy online course lead by Angela Yu and hands-on projects.</li>
+                    </ul>
+                    
+                </div>
+                <div className='item'>
+                    <h3>Personal or Academic Projects</h3>
+                    <ul>
+                        <li>For my capstone project, I developed a responsive e-commerce website, focusing on both the user interface and the overall user experience.</li>
+                        
+                    </ul>
+                    <p> </p>
+                </div>
+                <div className='item'>
+                    <h3>Understanding of UI/UX Principles</h3>
+                    <ul>
+                        <li>I have a strong understanding of design principles such as color theory, typography, user flow, and accessibility.</li>
+                    </ul>
+                   
+                </div>
+                <div className='item'>
+                    <h3>Skills and Tools</h3>
+                    <ul>
+                        <li>proficient in  HTML5, CSS3, and JavaScript, with a strong foundation in responsive design.</li>
+                        <li>familiar with design tools like Figma, Adobe XD, and Balsamiq, which I’ve used to create wireframes and prototypes.</li>
+                    </ul>
+                    
+                </div>
+                
+              </div>
+              
+            </div>
+        </div>
+        <div className='skillBar'>
+            <img src={websiteImg} alt='Web Design' className='skillBarImg'/>
+            <div className='skillBarText'>
+              <h2>Website Design</h2>
+              <div className='items'>
+                    <div className='item'>
+                        <h3>Learning Journey</h3>
+                        <ul>
+                            <li>I’ve spent  3 months immersing myself in web development, learning the fundamentals of front-end technologies and responsive design principles and backend technologies .</li>
+                            <li>I practiced doing projects by myself,thereby gained project experience </li>
+                        </ul>
+                       
+                    </div>
+                    
+                    <div className='item'>
+                        <h3>Personal or Academic Projects</h3>
+                        <ul>
+                            <li>As part of my learning journey, I’ve created several personal projects.</li>
+                        </ul>
+                        
+                    </div>
+                   
+                    <div className='item'>
+                        <h3>Skills and Tools</h3>
+                        <ul>
+                            <li>proficiency in front-end technologies such as HTML5, CSS3, and JavaScript</li>
+                            <li>Also comfortable working with front-end frameworks like Bootstrap and React.</li>
+                            <li>Additionally, I’ve used tools such as Git for version control.</li>
+                            <li>familiar with deploying websites using platforms like GitHub Pages and Netlify</li>
+                        </ul>
+                        
+                    </div>
+                   
+                    <div className='item'>
+                        <h3>Approach to Development</h3>
+                        <ul>
+                            <li>I focus on clean, maintainable code and responsive design.</li>
+                        </ul>
+                       
+                    </div>
+                
+                    <div className='item'>
+                        <h3>Collaboration and Communication Skills</h3>
+                        <ul>
+                            <li>Throughout my learning experience, I’ve collaborated with fellow developers on group projects, refining my teamwork and communication skills.</li>
+                        </ul>
+                        
+                    </div>
+                
+                    <div className='item'>
+                        <h3>Freelance Projects</h3>
+                        <ul>
+                            <li>Family Tree Project</li>
+                        </ul>
+                      
+                    </div>
+                
+              </div>
+            </div>
+        </div>
+        <div className='skillBar'>
+            <img src={appdevImg} alt='App Deign' className='skillBarImg'/>
+            <div className='skillBarText'>
+              <h2>App Design</h2>
+              <div className='items'>
+              <div className='item'>
+                        <h3> Projects</h3>
+                        <ul>
+                            <li>I have not started App development yet .Learning on going</li>
+                        </ul>
+                       
+                    </div>
+              </div>
+              
+            </div>
+        </div>
+
+         <div className='skillBar'>
+            <img src={appdevImg} alt='App Deign' className='skillBarImg'/>
+            <div className='skillBarText'>
+              <h2>App Design</h2>
+              <div className='items'>
+              <div className='item'>
+                       
+                       
+                    </div>
+              </div>
+              
+            </div>
+        </div>
+
+        <div className='items'>
+                    <div className='item'>
+                        <p>I am proficient in  HTML5, CSS3, and JavaScript, ReactJS, API and Databases with a strong foundation in responsive design. <br />
+                        I am familiar with design tools like Figma, Adobe XD, and Balsamiq, which I’ve used to create wireframes and prototypes.<br />
+                        Also familiar with Animation Tools like FramerMotion and Deploying platforms such as netlify,vercel and Version controls such as Git & Github</p>
+                        
+                       
+                    </div>
+                
+              </div>
+
+               <div className='skillBar'>
+            <img src={uiuxDesignImg} alt='UI Design' className='skillBarImg'/>
+            <div className='skillBarText'>
+              <h2>UI/UX Design</h2>
+              <div className='items'>
+              <DesignPrinciples />
+                
+                
+                
+                
+              </div>
+              
+            </div>
+        </div>

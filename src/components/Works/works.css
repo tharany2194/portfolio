@@ -1,0 +1,113 @@
+#works{
+    margin: 1.5rem auto;
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+
+}
+.skillBarTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1 rem;
+    font-weight: 200;
+    margin-left: 8rem;
+}
+.skillBar{
+    display: flex;
+    width:100%;
+    max-width: 80%;
+    margin: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+    align-items: center;
+}
+
+.skillBarImg{
+    height: 9rem;
+    width: 9rem;
+    margin-right: 2rem;
+    object-fit: cover;
+   
+   
+}
+.worksImgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 70rem;
+    margin: 2rem 1rem;
+    
+    
+}
+
+.worksImg{
+    height: 250px;
+    width:500px;
+    margin: 0.5rem;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+   
+}
+.worksImg1{
+    height: 250px;
+    width:500px;
+    object-fit: contain;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+
+}
+.worksImgs img {
+   
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+    
+    cursor: pointer;
+  }
+  
+  .worksImgs img:hover {
+    transform:rotateX(3deg) rotateY(5deg) scale(1.1);/* Rotate the image to simulate page turning */
+   
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds shadow effect */
+  }
+ 
+
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+   
+}
+.worksDesc{
+   
+    font-size: 1rem;
+    font-weight:300;
+    max-width: 55rem;
+    
+}
+.worksBtn{
+    margin: 3rem 0;
+    padding:0.5rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: white;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:540px){
+    .worksImg{
+      width:-5vw;
+    }
+}

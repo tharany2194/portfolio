@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 65rem;
+    background: rgb(50,50,50);
+    color: black;
+    margin: 3rem 1rem;
+    border-radius: 10px;
+
+}
+.title{
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: white;
+   
+
+}
+.skills{
+    display: flex;
+    margin:0 1rem;
+}
+.skill{
+   padding: 1rem;
+   background: rgb(40,40,40);
+   flex-basis:100px;
+   justify-content: space-around;
+   align-items: center;
+   margin-right: 1rem;
+   margin-bottom: 1rem;
+   cursor: pointer;
+   color: white;
+   border-radius: 8px;
+}
+@media screen and (max-width:700px){
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
