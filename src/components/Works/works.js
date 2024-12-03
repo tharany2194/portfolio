@@ -39,7 +39,7 @@ const Works = () => {
            
             <div className='worksImgs'>
             <img src={tomatoApp} title="This Project is not hosted yet!" alt='' className='worksImg' />
-            <a href='' target='_blank' rel='noreferrer'><img title="Current Page!" src={portfolio} alt='' className='worksImg' /></a>
+            <img title="Current Page!" src={portfolio} alt='' className='worksImg' />
             <a href='https://keeper-app-2194.netlify.app/' target='_blank' rel='noreferrer'><img title="Click on this image to see my work!" src={keeperApp} alt='' className='worksImg1' /></a>
             <a href='https://todolist-app-2194.netlify.app/' target='_blank' rel='noreferrer'><img title="Click on this image to see my work!" src={todolist} alt='' className='worksImg' /></a>
             <a href='https://counter-app-2194.netlify.app/' target='_blank' rel='noreferrer'><img title="Click on this image to see my work!" src={timeUpdater} alt='' className='worksImg' /></a>
