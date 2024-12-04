@@ -17,24 +17,24 @@
     align-items: center;
     font-size: 1 rem;
     font-weight: 200;
-    margin-left: 8rem;
+    
 }
 .skillBar{
     display: flex;
-    width:100%;
-    max-width: 80%;
+ justify-content: center;
     margin: 1.5rem;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     background: rgb(50,50,50);
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .skillBarImg{
     height: 9rem;
     width: 9rem;
     margin-right: 2rem;
-    object-fit: cover;
+    object-fit: contain;
    
    
 }
@@ -43,34 +43,35 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    max-width: 70rem;
-    margin: 2rem 1rem;
+
+    width: 100%;
+    
+    margin: 2rem ;
     
     
 }
 
 .worksImg{
-    height: 250px;
-    width:500px;
-    margin: 0.5rem;
+
+
+    margin: 1rem;
+  
+ 
+    min-width: 10rem;
+   
+    max-width: 30rem;
+    
+    
+   
     object-fit: contain;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
    
 }
-.worksImg1{
-    height: 250px;
-    width:500px;
-    object-fit: contain;
-    border: 2px solid white;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
 
-}
 .worksImgs img {
    
     transition: transform 0.8s ease, box-shadow 0.3s ease;
@@ -106,8 +107,4 @@
     font-size: 1rem;
 }
 
-@media screen and (max-width:540px){
-    .worksImg{
-      width:-5vw;
-    }
-}
+

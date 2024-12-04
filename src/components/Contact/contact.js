@@ -50,7 +50,9 @@ const Contact = () => {
                 <textarea className='msg' name='message' rows='5' placeholder='Your Message' />
                 <button type='submit' className='submitBtn' value='Send'>Submit</button>
                 <div className='links'>
-                <a href='https://www.linkedin.com/in/tharany-sivapaskaran-5951431a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target='_blank' rel='noreferrer'><img className='link3' src={linkedinIcon} alt='linkedin icon' /></a>
+                <img
+                onClick={() => window.open('https://www.linkedin.com/in/tharany-sivapaskaran-2b2b6b1b5/', '_blank')}
+                 className='link3' src={linkedinIcon} alt='linkedin icon' />
                 <img className='link2' src={facebookIcon} alt='facebook icon' />
                 <img className='link1' src={instagramIcon} alt='instagram icon' />
                 <button  className='whatsappbtn' onClick={handleWhatsAppRedirect} ><img src={whatsappIcon} alt='whatsapp icon' className='link1'/></button>
