@@ -40,6 +40,7 @@
 }
 .whatsappbtn{
     border: none;
+    cursor: pointer;
 }
 .contactForm{
     margin:1rem;

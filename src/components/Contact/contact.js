@@ -51,8 +51,8 @@ const Contact = () => {
                 <button type='submit' className='submitBtn' value='Send'>Submit</button>
                 <div className='links'>
                 <a href='https://www.linkedin.com/in/tharany-sivapaskaran-5951431a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target='_blank' rel='noreferrer'><img className='link3' src={linkedinIcon} alt='linkedin icon' /></a>
-                <a href='https://keeper-app-2194.netlify.app/' target='_blank' rel='noreferrer'><img className='link2' src={facebookIcon} alt='facebook icon' /></a>
-                <a href='https://keeper-app-2194.netlify.app/' target='_blank' rel='noreferrer'><img className='link1' src={instagramIcon} alt='instagram icon' /></a>
+                <img className='link2' src={facebookIcon} alt='facebook icon' />
+                <img className='link1' src={instagramIcon} alt='instagram icon' />
                 <button  className='whatsappbtn' onClick={handleWhatsAppRedirect} ><img src={whatsappIcon} alt='whatsapp icon' className='link1'/></button>
                    
                 </div>
