@@ -23,7 +23,7 @@
     display: flex;
     margin:0 1rem;
  justify-content: center;
-    flex-wrap: wrap;
+
 }
 .skill{
    padding: 1rem;
@@ -36,4 +36,11 @@
    cursor: pointer;
    color: white;
    border-radius: 8px;
+}
+
+.skill:hover{
+    background: rgb(30,30,30);
+    transition: 0.5s rotate;
+    rotate: 10deg;
+  
 }

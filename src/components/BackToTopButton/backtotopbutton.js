@@ -39,12 +39,12 @@ const BackToTopButton = () => {
             right: "40px",
             background: "white",
             borderRadius: "80%",
-            width: "50px",
-            height: "50px",
+            width: "40px",
+            height: "40px",
             fontSize: "20px",
-            color: "yellow",
+            color: "black",
             cursor: "pointer",
-            border:"0.5rem solid yellow",
+            border:"0.1rem solid transparent",
             boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
           }}
         >
