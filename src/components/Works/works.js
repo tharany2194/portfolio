@@ -50,13 +50,13 @@ const Works = () => {
           onClick={() => window.open('https://todolist-app-2194.netlify.app/', '_blank')}
            title="Click on this image to see my work!" src={todolist} alt='' className='worksImg' />
             <img
-          onClick={() => window.open('https://time-date-updater-app-2194.netlify.app/', '_blank')} 
+          onClick={() => window.open('https://counter-app-2194.netlify.app/', '_blank')} 
              title="Click on this image to see my work!" src={timeUpdater} alt='' className='worksImg' />
           <img
-          onClick={() => window.open('https://drum-kit-app-2194.netlify.app/', '_blank')}
+          onClick={() => window.open('https://drumkit-app-2194.netlify.app/', '_blank')}
            title="Click on this image to see my work!" src={drumKit} alt='' className='worksImg' />
            <img
-          onClick={() => window.open('https://dice-game-app-2194.netlify.app/', '_blank')}
+          onClick={() => window.open('https://dicegame-app-2194.netlify.app/', '_blank')}
             title="Click on this image to see my work!" src={diceGame} alt='' className='worksImg' />
             <img 
             onClick={() => window.open('https://tindog-app-2194.netlify.app/', '_blank')}
