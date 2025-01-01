@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link activeClass='active' to='skills' spy={true} offset={-100} duration={500} className='desktopMenuListItem' >About</Link>
         <Link activeClass='active' to='works' spy={true} offset={-100} duration={500} className='desktopMenuListItem' >Portfolio</Link>
         
-
+*
       </div>
       <Link to='contactPage' spy={true} offset={-100} duration={500}> < button className='desktopMenuBtn' onClick={()=>{document.getElementById("contactPage").scrollIntoView({behavior:'smooth'});
     }}>

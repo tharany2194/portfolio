@@ -11,6 +11,7 @@ import todolist from '../../assets/todolist.png'
 import tomatoApp from '../../assets/tomato-app.png'
 import websiteImg from '../../assets/website design.png'
 import portfolio from '../../assets/Portfolio_screen_shot.png'
+import alexa from '../../assets/alexa-frontend.png'
 
 
 
@@ -38,6 +39,9 @@ const Works = () => {
     
            
             <div className='worksImgs'>
+            <img
+          onClick={() => window.open('https://alexa-frontend.netlify.app/', '_blank')}
+            title="Click on this image to see my work!" src={alexa} alt='' className='worksImg' />
             <img src={tomatoApp} title="This Project is not hosted yet!" alt='' className='worksImg' />
             <img title="Current Page!" src={portfolio} alt='' className='worksImg' />
            
